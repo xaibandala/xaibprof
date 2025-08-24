@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/my-app/components/Particles.css"],"sourcesContent":[".particles-container {\n  position: relative;\n  width: 100%;\n  height: 100%;\n  pointer-events: auto; /* allow hover tracking */\n}\n\n.particles-container canvas {\n  position: absolute;\n  inset: 0;\n  width: 100% !important;\n  height: 100% !important;\n  display: block;\n  pointer-events: none; /* let clicks pass through */\n}\n"],"names":[],"mappings":"AAAA;;;;;;;AAOA"}}]
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/my-app/components/CircularText.module.css"],"sourcesContent":[".circularText {\n  margin: 0 auto;\n  border-radius: 50%;\n  width: 160px;\n  position: relative;\n  height: 160px;\n  font-weight: 900;\n  color: #fff;\n  text-align: center;\n  cursor: pointer;\n  transform-origin: 50% 50%;\n  -webkit-transform-origin: 50% 50%;\n}\n\n.letter {\n  position: absolute;\n  display: inline-block;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;\n  font-size: 20px;\n  transition: all 0.5s cubic-bezier(0, 0, 0, 1);\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;AAcA"}}]
+}

@@ -1,0 +1,26 @@
+/* [project]/my-app/components/CircularText.module.css [app-client] (css) */
+.CircularText-module__PpuquG__circularText {
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transform-origin: 50%;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+  font-weight: 900;
+  position: relative;
+}
+
+.CircularText-module__PpuquG__letter {
+  font-size: 20px;
+  transition: all .5s cubic-bezier(0, 0, 0, 1);
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+/*# sourceMappingURL=my-app_components_CircularText_module_css_bad6b30c._.single.css.map*/

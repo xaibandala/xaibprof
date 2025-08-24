@@ -1,0 +1,161 @@
+module.exports = [
+"[project]/my-app/.next-internal/server/app/certificates/[slug]/page/actions.js [app-rsc] (server actions loader, ecmascript)", ((__turbopack_context__, module, exports) => {
+
+}),
+"[project]/my-app/app/favicon.ico.mjs { IMAGE => \"[project]/my-app/app/favicon.ico (static in ecmascript)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/my-app/app/favicon.ico.mjs { IMAGE => \"[project]/my-app/app/favicon.ico (static in ecmascript)\" } [app-rsc] (structured image object, ecmascript)"));
+}),
+"[project]/my-app/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/my-app/app/layout.tsx [app-rsc] (ecmascript)"));
+}),
+"[project]/my-app/data/certificates.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "certificates",
+    ()=>certificates,
+    "getCertificateBySlug",
+    ()=>getCertificateBySlug
+]);
+const certificates = [
+    {
+        slug: 'ui-ux-design-professional',
+        title: 'UI/UX Design Professional',
+        issuer: 'Google UX Design',
+        imageUrl: '/grtlearning.jpg',
+        certificateUrl: '/certificates/great-learning-ui-ux-beginner-certificate.pdf',
+        description: 'Professional certificate covering the foundations of UX research, prototyping, and usability.'
+    },
+    {
+        slug: 'figma-advanced-prototyping',
+        title: 'Figma Advanced Prototyping',
+        issuer: 'Figma Academy',
+        imageUrl: 'https://picsum.photos/seed/figma/400/300',
+        certificateUrl: 'https://example.com/certificate/2',
+        description: 'Advanced prototyping techniques in Figma including interactive components and variables.'
+    },
+    {
+        slug: 'design-systems-fundamentals',
+        title: 'Design Systems Fundamentals',
+        issuer: 'Design Systems University',
+        imageUrl: 'https://picsum.photos/seed/design-systems/400/300',
+        certificateUrl: 'https://example.com/certificate/3',
+        description: 'Principles of scalable design systems, tokens, and governance.'
+    },
+    {
+        slug: 'user-research-and-testing',
+        title: 'User Research & Testing',
+        issuer: 'Nielsen Norman Group',
+        imageUrl: 'https://picsum.photos/seed/user-research/400/300',
+        certificateUrl: 'https://example.com/certificate/4',
+        description: 'Methods for qualitative and quantitative research, interviews, and usability testing.'
+    },
+    {
+        slug: 'accessibility-in-design',
+        title: 'Accessibility in Design',
+        issuer: 'W3C Web Accessibility',
+        imageUrl: 'https://picsum.photos/seed/accessibility/400/300',
+        certificateUrl: 'https://example.com/certificate/5',
+        description: 'WCAG guidelines, ARIA, and inclusive design practices.'
+    },
+    {
+        slug: 'mobile-interface-design',
+        title: 'Mobile Interface Design',
+        issuer: 'Apple Design Resources',
+        imageUrl: 'https://picsum.photos/seed/mobile-design/400/300',
+        certificateUrl: 'https://example.com/certificate/6',
+        description: 'Designing intuitive mobile experiences across iOS and Android.'
+    }
+];
+function getCertificateBySlug(slug) {
+    return certificates.find((c)=>c.slug === slug);
+}
+}),
+"[project]/my-app/app/certificates/[slug]/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>CertificateDetailPage
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/my-app/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/my-app/node_modules/next/image.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/my-app/node_modules/next/dist/client/app-dir/link.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$api$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/my-app/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/my-app/node_modules/next/dist/client/components/navigation.react-server.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$data$2f$certificates$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/my-app/data/certificates.ts [app-rsc] (ecmascript)");
+;
+;
+;
+;
+;
+function CertificateDetailPage({ params }) {
+    const cert = (0, __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$data$2f$certificates$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getCertificateBySlug"])(params.slug);
+    if (!cert) return (0, __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["notFound"])();
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+        className: "px-4 sm:px-8 py-6 sm:py-10 mx-auto max-w-7xl",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mb-4 sm:mb-6",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                    href: "/certificates",
+                    className: "text-sm text-blue-500 hover:underline",
+                    children: "← Back to Certificates"
+                }, void 0, false, {
+                    fileName: "[project]/my-app/app/certificates/[slug]/page.tsx",
+                    lineNumber: 17,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/my-app/app/certificates/[slug]/page.tsx",
+                lineNumber: 16,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full border rounded-lg overflow-hidden bg-gray-50",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "relative w-full h-[80vh]",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$my$2d$app$2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                        src: cert.imageUrl,
+                        alt: `${cert.title} preview`,
+                        fill: true,
+                        className: "object-contain",
+                        sizes: "100vw"
+                    }, void 0, false, {
+                        fileName: "[project]/my-app/app/certificates/[slug]/page.tsx",
+                        lineNumber: 23,
+                        columnNumber: 11
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/my-app/app/certificates/[slug]/page.tsx",
+                    lineNumber: 21,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/my-app/app/certificates/[slug]/page.tsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/my-app/app/certificates/[slug]/page.tsx",
+        lineNumber: 15,
+        columnNumber: 5
+    }, this);
+}
+}),
+"[project]/my-app/app/certificates/[slug]/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
+
+__turbopack_context__.n(__turbopack_context__.i("[project]/my-app/app/certificates/[slug]/page.tsx [app-rsc] (ecmascript)"));
+}),
+"[externals]/next/dist/shared/lib/no-fallback-error.external.js [external] (next/dist/shared/lib/no-fallback-error.external.js, cjs)", ((__turbopack_context__, module, exports) => {
+
+const mod = __turbopack_context__.x("next/dist/shared/lib/no-fallback-error.external.js", () => require("next/dist/shared/lib/no-fallback-error.external.js"));
+
+module.exports = mod;
+}),
+];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__f11a2fc3._.js.map

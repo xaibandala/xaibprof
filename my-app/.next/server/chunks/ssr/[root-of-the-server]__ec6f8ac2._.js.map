@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Documents/myprofile/my-app/app/certificates/%5Bslug%5D/page.tsx"],"sourcesContent":["import { notFound } from 'next/navigation';\n\nexport default function CertificateDetailPage() {\n  // Detail route disabled intentionally\n  return notFound();\n}\n"],"names":[],"mappings":";;;;AAAA;AAAA;;AAEe,SAAS;IACtB,sCAAsC;IACtC,OAAO,IAAA,8MAAQ;AACjB","debugId":null}}]
+}

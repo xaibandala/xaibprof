@@ -1,0 +1,29 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/07e91_next_dist_dbcec4bd._.js",
+      "static/chunks/my-app_app_favicon_ico_mjs_0be2cf0b._.js",
+      "static/chunks/[root-of-the-server]__f1128b25._.css",
+      "static/chunks/07e91_84da5d72._.js",
+      "static/chunks/my-app_components_1965aaf1._.js",
+      "static/chunks/my-app_app_layout_tsx_5d582553._.js",
+      "static/chunks/07e91_next_dist_client_components_builtin_global-error_60532b7f.js",
+      "static/chunks/my-app_8aa3489d._.js",
+      "static/chunks/07e91_gsap_ecd73177._.js",
+      "static/chunks/07e91_motion-dom_dist_es_e74131db._.js",
+      "static/chunks/07e91_framer-motion_dist_es_5400a158._.js",
+      "static/chunks/07e91_motion-utils_dist_es_2c2c7a19._.js",
+      "static/chunks/my-app_components_0742b96b._.css",
+      "static/chunks/my-app_app_page_tsx_60532b7f._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_684dfe66._.js",
+      "static/chunks/07e91_next_dist_compiled_react-dom_1000051a._.js",
+      "static/chunks/07e91_next_dist_compiled_next-devtools_index_39a30e4a.js",
+      "static/chunks/07e91_next_dist_compiled_f46d44cf._.js",
+      "static/chunks/07e91_next_dist_client_5a2f3cd9._.js",
+      "static/chunks/07e91_next_dist_5a76dbd8._.js",
+      "static/chunks/07e91_@swc_helpers_cjs_f32025a8._.js",
+      "static/chunks/my-app_a0ff3932._.js",
+      "static/chunks/turbopack-my-app_67e827fd._.js"
+    ]
+  }
+}

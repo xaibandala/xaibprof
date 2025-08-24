@@ -1,0 +1,84 @@
+/* [project]/my-app/app/contact/contact.css [app-client] (css) */
+.hover-gradient-card {
+  transition: transform .22s, box-shadow .22s, background-color .22s;
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-gradient-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .25);
+}
+
+.hover-gradient-card:after {
+  content: "";
+  opacity: 0;
+  pointer-events: none;
+  background: radial-gradient(80% 80% at 50% 0, rgba(255, 255, 255, .18), rgba(255, 255, 255, 0) 70%), linear-gradient(rgba(255, 255, 255, .06), rgba(255, 255, 255, 0));
+  transition: opacity .24s;
+  position: absolute;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+}
+
+.hover-gradient-card:hover:after {
+  opacity: 1;
+}
+
+.contact-page {
+  position: relative;
+}
+
+.contact-page .hover-gradient-card {
+  -webkit-backdrop-filter: blur(8px) saturate();
+  background-color: rgba(0, 0, 0, .65);
+  border: 1px solid rgba(255, 255, 255, .16);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .35);
+}
+
+.contact-page .hover-gradient-card:after {
+  opacity: .28;
+}
+
+.contact-page .hover-gradient-card:hover:after {
+  opacity: .45;
+}
+
+.contact-page h1, .contact-page h2, .contact-page h3, .contact-page p, .contact-page label {
+  color: rgba(255, 255, 255, .95);
+}
+
+.contact-page input, .contact-page textarea {
+  -webkit-backdrop-filter: blur(6px);
+  box-shadow: inset 0 1px rgba(255, 255, 255, .04);
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, .55) !important;
+  border: 1px solid rgba(255, 255, 255, .22) !important;
+}
+
+.contact-page input::placeholder, .contact-page textarea::placeholder {
+  color: rgba(255, 255, 255, .6);
+}
+
+.contact-page input:focus, .contact-page textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, .35);
+  border-color: rgba(255, 255, 255, .9) !important;
+}
+
+.contact-page button[type="submit"] {
+  border: 1px solid rgba(255, 255, 255, .5);
+  transition: background-color .2s, color .2s, border-color .2s, box-shadow .2s;
+  color: #fff !important;
+  background-color: #0f0f0f !important;
+}
+
+.contact-page button[type="submit"]:hover {
+  border-color: #000;
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+/*# sourceMappingURL=my-app_app_contact_contact_4074eddf.css.map*/
